@@ -8,7 +8,8 @@ Needs only Xcode Command Line Tools (`xcode-select --install`). No other librari
     open build/PalmHeat.app
 
 (Run `./build/PalmHeat.app/Contents/MacOS/PalmHeat` from Terminal to see log output.)
-Universal binary: `ARCHS="arm64 x86_64" ./build.sh`
+Universal binary: `ARCHS="arm64 x86_64" ./build.sh` (Claude generated this but i personally used the cd ~/Downloads/PalmHeat && chmod +x build.sh && ./build.sh 
+compiling world.cpp command)
 
 ## Controls
 WASD/arrows move, Shift sprint, Space jump (handbrake in car), C crouch, mouse look, LMB fire, RMB aim,
